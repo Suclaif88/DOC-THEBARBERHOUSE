@@ -7,7 +7,7 @@ export default defineConfig({
     starlight({
       title: 'THE BARBER HOUSE',
       logo: {src: './src/assets/3.png',},
-      favicon: '/favicon.ico',
+      favicon: './favicon.ico',
       // plugins: [
       //   ion()
       // ],
