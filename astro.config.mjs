@@ -44,6 +44,13 @@ export default defineConfig({
                 'docs/api/insumos/cat-insumos',
               ],
             },
+            {
+              label: 'Ventas',
+              collapsed: true,
+              items: [
+                'docs/api/ventas/ventas',
+              ],
+            },
           ],
         },
         {
