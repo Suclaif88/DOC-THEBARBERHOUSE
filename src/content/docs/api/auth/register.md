@@ -1,6 +1,6 @@
 ---
 title: "Registro"
-slug: "docs/api/register"
+slug: "docs/api/auth/register"
 ---
 
 # Endpoint: Registro de Usuario
@@ -26,7 +26,7 @@ Esta es la ruta a la cual se debe enviar la solicitud para registrar un nuevo us
 
 ### Ejemplo de cuerpo de solicitud
 
-El cuerpo de la solicitud debe ser un objeto JSON con los parámetros necesarios. Aquí tienes un ejemplo de cómo debe ser el cuerpo de la solicitud:
+El cuerpo de la solicitud debe ser un objeto JSON con los parámetros necesarios. Aquí hay un ejemplo de cómo debe ser el cuerpo de la solicitud:
 
 ```json
 {
@@ -42,7 +42,7 @@ El cuerpo de la solicitud debe ser un objeto JSON con los parámetros necesarios
 La solicitud debe estar en formato JSON para que la API pueda procesarlo correctamente.
 :::
 
-## Respuesta
+### Respuesta
 
 La respuesta será un objeto JSON que incluirá el estado de la operación, el usuario registrado y el token JWT para autenticar futuras solicitudes.
 
@@ -108,7 +108,7 @@ curl -X POST http://localhost:3000/api/auth/register \
 
 - La respuesta de la consola mostrará el resultado de la operación, ya sea un éxito o un error.
 
-### Notas
+## Notas
 
 - Asegúrese de que la contraseña tenga una longitud mínima de 6 caracteres.
 

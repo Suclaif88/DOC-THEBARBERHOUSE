@@ -25,7 +25,23 @@ export default defineConfig({
         },
         {
           label: 'API Endpoints',
-		  autogenerate: { directory: 'api' },
+          items: [
+            {
+              label: 'Authenticacion',
+              items: [
+                'docs/api/auth/login',
+                'docs/api/auth/register',
+                'docs/api/auth/token',
+              ],
+            },
+            {
+              label: 'Insumos',
+              items: [
+                'docs/api/insumos/insumos',
+                'docs/api/insumos/cat-insumos',
+              ],
+            },
+          ],
         },
         {
           label: 'Referencias',

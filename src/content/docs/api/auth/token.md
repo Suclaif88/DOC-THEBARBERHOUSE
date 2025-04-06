@@ -1,6 +1,11 @@
 ---
 title: "Autenticación con Token JWT"
 slug: "docs/api/auth/token"
+
+sidebar:
+  badge:
+    text: "!"
+    variant: danger
 ---
 
 Este apartado explica cómo funciona el token JWT (JSON Web Token) y cómo se utiliza para autenticar las solicitudes a los endpoints de la API.

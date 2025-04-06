@@ -22,7 +22,7 @@ Esta es la ruta a la cual se debe enviar la solicitud para iniciar sesión.
 
 ### Ejemplo de cuerpo de solicitud
 
-El cuerpo de la solicitud debe ser un objeto JSON con los parámetros necesarios. Aquí tienes un ejemplo de cómo debe ser el cuerpo de la solicitud:
+El cuerpo de la solicitud debe ser un objeto JSON con los parámetros necesarios. Aquí hay un ejemplo de cómo debe ser el cuerpo de la solicitud:
 
 ```json
 {
@@ -34,11 +34,11 @@ El cuerpo de la solicitud debe ser un objeto JSON con los parámetros necesarios
 La solicitud debe estar en formato JSON para que la API pueda procesarlo correctamente.
 :::
 
-## Respuesta
+### Respuesta
 
 La respuesta será un objeto JSON que incluirá el estado de la operación, el mensaje de éxito y el token JWT para autenticar futuras solicitudes.
 
-### Ejemplo de respuesta exitosa:
+### Ejemplo de respuesta exitosa
 
 ```json
 {
@@ -48,7 +48,7 @@ La respuesta será un objeto JSON que incluirá el estado de la operación, el m
 }
 ```
 
-### Ejemplo de respuesta con error (si las credenciales son incorrectas):
+### Ejemplo de respuesta con error (si las credenciales son incorrectas)
 
 ```json
 {
@@ -83,7 +83,7 @@ curl -X POST http://localhost:3000/api/auth/login \
 
 - La respuesta de la consola mostrará el resultado de la operación, ya sea un éxito o un error.
 
-### Notas
+## Notas
 
 - Asegúrese de que el email y la password sean correctos y que el email esté registrado previamente en el sistema.
 
