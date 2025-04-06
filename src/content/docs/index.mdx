@@ -12,3 +12,22 @@ hero:
       link: /guides/
       icon: right-arrow
 ---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## En esta documentacion podras encontrar
+
+<CardGrid stagger>
+	<Card title="Guias" icon="star">
+		Guias de inicio rapido y de uso del aplicativo web.
+	</Card>
+	<Card title="Sugerencias" icon="approve-check-circle">
+		Sugerencias de uso del aplicativo web
+	</Card>
+	<Card title="API" icon="rocket">
+		Uso de la API oficial de THE BARBER HOUSE.
+	</Card>
+	<Card title="Documentacion" icon="open-book">
+		Documentación oficial de THE BARBER HOUSE.
+	</Card>
+</CardGrid>
