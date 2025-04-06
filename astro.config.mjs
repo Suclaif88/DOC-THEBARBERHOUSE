@@ -25,9 +25,11 @@ export default defineConfig({
         },
         {
           label: 'API Endpoints',
+          collapsed: false,
           items: [
             {
               label: 'Authenticacion',
+              collapsed: false,
               items: [
                 'docs/api/auth/login',
                 'docs/api/auth/register',
@@ -36,6 +38,7 @@ export default defineConfig({
             },
             {
               label: 'Insumos',
+              collapsed: false,
               items: [
                 'docs/api/insumos/insumos',
                 'docs/api/insumos/cat-insumos',
