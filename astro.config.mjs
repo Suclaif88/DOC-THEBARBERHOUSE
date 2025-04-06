@@ -1,5 +1,6 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import { ion } from "starlight-ion-theme";
 
 export default defineConfig({
   integrations: [
@@ -7,6 +8,9 @@ export default defineConfig({
       title: 'THE BARBER HOUSE',
       logo: {src: './src/assets/3.png',},
       favicon: './public/favicon.ico',
+      // plugins: [
+      //   ion()
+      // ],
       social: {
         github: 'https://github.com/Suclaif88/THE-BARBER-HOUSE',
       },
