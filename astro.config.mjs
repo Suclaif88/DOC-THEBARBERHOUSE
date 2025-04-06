@@ -29,7 +29,7 @@ export default defineConfig({
           items: [
             {
               label: 'Authenticacion',
-              collapsed: false,
+              collapsed: true,
               items: [
                 'docs/api/auth/login',
                 'docs/api/auth/register',
@@ -38,7 +38,7 @@ export default defineConfig({
             },
             {
               label: 'Insumos',
-              collapsed: false,
+              collapsed: true,
               items: [
                 'docs/api/insumos/insumos',
                 'docs/api/insumos/cat-insumos',
