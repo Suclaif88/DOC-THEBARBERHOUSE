@@ -5,6 +5,8 @@ export default defineConfig({
   integrations: [
     starlight({
       title: 'THE BARBER HOUSE',
+      logo: {src: './src/assets/3.png',},
+      favicon: './public/favicon.ico',
       social: {
         github: 'https://github.com/Suclaif88/THE-BARBER-HOUSE',
       },
