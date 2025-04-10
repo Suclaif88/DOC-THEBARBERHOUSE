@@ -38,7 +38,7 @@ Este endpoint permite crear una nueva venta.
 }
 ```
 
-:::caution
+:::caution[Cuidado]
 La solicitud debe estar en formato JSON para que la API pueda procesarlo correctamente.
 :::
 

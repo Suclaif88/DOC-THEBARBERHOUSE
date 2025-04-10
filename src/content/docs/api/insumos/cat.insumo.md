@@ -32,7 +32,7 @@ Este endpoint permite crear una nueva categoría de insumos.
   "Descripcion": "Categoría para cremas para la piel"
 }
 ```
-:::caution
+:::caution[Cuidado]
 La solicitud debe estar en formato JSON para que la API pueda procesarlo correctamente.
 :::
 

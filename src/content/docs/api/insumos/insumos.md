@@ -35,7 +35,7 @@ Este endpoint permite crear un nuevo insumo.
   "Estado": true
 }
 ```
-:::caution
+:::caution[Cuidado]
 La solicitud debe estar en formato JSON para que la API pueda procesarlo correctamente.
 :::
 

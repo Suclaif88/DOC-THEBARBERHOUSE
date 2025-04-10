@@ -38,7 +38,7 @@ El cuerpo de la solicitud debe ser un objeto JSON con los parámetros necesarios
   "direccion": "Calle Ficticia 123"
 }
 ```
-:::caution
+:::caution[Cuidado]
 La solicitud debe estar en formato JSON para que la API pueda procesarlo correctamente.
 :::
 

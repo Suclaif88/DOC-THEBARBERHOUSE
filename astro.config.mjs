@@ -51,6 +51,13 @@ export default defineConfig({
                 'docs/api/ventas/ventas',
               ],
             },
+            {
+              label: 'Imagenes',
+              collapsed: true,
+              items: [
+                'docs/api/imagenes/imagenes',
+              ],
+            },
           ],
         },
         {
