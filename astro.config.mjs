@@ -8,9 +8,9 @@ export default defineConfig({
       title: 'THE BARBER HOUSE',
       logo: {src: './src/assets/3.png',},
       favicon: './favicon.ico',
-      // plugins: [
-      //   ion()
-      // ],
+      plugins: [
+        ion()
+      ],
       social: {
         github: 'https://github.com/Suclaif88/THE-BARBER-HOUSE',
       },
